@@ -377,7 +377,7 @@
       <dependency>
         <groupId>com.sun.activation</groupId>
         <artifactId>jakarta.activation</artifactId>
-        <version>1.2.1</version>
+        <version>1.2.2</version>
       </dependency>
 
       <dependency>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
