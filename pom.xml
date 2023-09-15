@@ -52,7 +52,7 @@
     <dep.jboss-logging.version>3.3.0.Final</dep.jboss-logging.version>
     <dep.jdbi3.version>3.8.2</dep.jdbi3.version>
     <dep.jersey2.version>2.25.1</dep.jersey2.version>
-    <dep.jetty.version>9.4.18.v20190429</dep.jetty.version>
+    <dep.jetty.version>9.4.52.v20230823</dep.jetty.version>
     <dep.joda.version>2.10.1</dep.joda.version>
     <dep.junit-jupiter.version>5.5.0</dep.junit-jupiter.version>
     <dep.junit.platform.version>1.5.0</dep.junit.platform.version>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
