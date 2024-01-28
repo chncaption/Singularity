@@ -29,7 +29,7 @@
   </modules>
 
   <properties>
-    <aws.sdk.version>1.11.497</aws.sdk.version>
+    <aws.sdk.version>1.12.646</aws.sdk.version>
     <baragon.version>0.9.0</baragon.version>
     <basepom.jar.name.format>${singularity.jar.name.format}</basepom.jar.name.format>
     <basepom.release.profiles>oss-release</basepom.release.profiles>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
