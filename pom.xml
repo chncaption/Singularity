@@ -38,7 +38,7 @@
     <dep.curator.version>4.2.0</dep.curator.version>
     <dep.dropwizard-metrics.version>4.0.5</dep.dropwizard-metrics.version>
     <dep.findbugs.jsr.version>3.0.2</dep.findbugs.jsr.version>
-    <dep.google.cloud.version>1.15.0</dep.google.cloud.version>
+    <dep.google.cloud.version>1.62.0</dep.google.cloud.version>
     <dep.google.http-client.version>1.24.1</dep.google.http-client.version>
     <dep.guava.version>25.0-jre</dep.guava.version>
     <dep.guice.version>4.2.2</dep.guice.version>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
