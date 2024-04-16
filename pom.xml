@@ -71,7 +71,7 @@
     <dep.swagger.version>2.0.0</dep.swagger.version>
     <dep.zookeeper.version>3.4.14</dep.zookeeper.version>
     <dropwizard.guicier.version>1.3.5.1</dropwizard.guicier.version>
-    <dropwizard.version>1.3.12</dropwizard.version>
+    <dropwizard.version>3.0.0</dropwizard.version>
     <horizon.version>0.1.2</horizon.version>
     <mesos.docker.tag>1.9.0</mesos.docker.tag> <!-- 1.10.0 not available yet, still compatible -->
     <mesos.version>1.10.0</mesos.version>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
