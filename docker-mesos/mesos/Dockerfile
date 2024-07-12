@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 
 MAINTAINER platform-infrastructure-groups@hubspot.com
 
