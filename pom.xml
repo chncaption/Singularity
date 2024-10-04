@@ -577,7 +577,7 @@
       <dependency>
         <groupId>org.apache.directory.api</groupId>
         <artifactId>api-all</artifactId>
-        <version>1.0.0-M28</version>
+        <version>1.0.0</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.servicemix.bundles</groupId>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
