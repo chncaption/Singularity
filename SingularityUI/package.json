@@ -29,7 +29,7 @@
     "fuzzy": "https://github.com/HubSpot/fuzzy.git#v0.1.1-plus-return-match-structure",
     "history": "^2.1.2",
     "humanize-plus": "^1.8.1",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "jquery": "^3.4.0",
     "juration": "*",
     "keymaster": "^1.6.2",
