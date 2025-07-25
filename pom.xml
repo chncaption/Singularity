@@ -471,7 +471,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
-        <version>1.2</version>
+        <version>1.14.0</version>
       </dependency>
 
       <dependency>
@@ -755,7 +755,7 @@
           <artifactId>docker-maven-plugin</artifactId>
           <version>0.13.2</version>
           <configuration>
-            <images />
+            <images/>
             <!-- default to no images to allow building from parent, let submodules override -->
           </configuration>
           <executions>
@@ -801,7 +801,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
